@@ -2,3 +2,34 @@ body {
     background-color: #C70039  ; 
     font-size: 12px;
 }
+
+.top-section {
+    background: white;
+    width: 500px;
+
+}
+.bottom-section {
+    background: gray;
+    width: 500px;
+}
+span {
+    background: peachpuff
+
+}
+/* this is how you make a css comment */
+/* this is the css box model */
+/* Margin 
+   Border
+   Padding
+   */
+.box {
+    background-color: tan;
+    width: 300px;
+    margin-top: 100px;
+    border-width: 5px;
+    /* top | right | bottom | left */
+    border-color: red yellow green blue;
+    border-style: ridge;
+    border-radius: 0cm;
+
+}
