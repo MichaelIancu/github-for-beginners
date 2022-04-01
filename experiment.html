@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
     <meta charset= "utf-8">
     <title> My first website </title>
@@ -13,19 +13,31 @@
     <!-- <em><strong> makes my comment bold and italic -->
     <!-- <b><i> can also be used but it doesnt add meaning to the text its just a
         visual representation -->
+    <!-- <span> can also be used if you want to modify a small segment words such as changing size 
+        or colour -->
+    <!-- classes and ids are similar to each other with on major diff. Ids are more specific -->
     <h1 style="color: #FFC300; font-size: xx-large;">My first Website </h1>
+    <div class="box">
     <p>p is used to make a new line, <a href= "http://www.google.com">interesting</a></p>
-    <p><em>Packets (each consists of of 1,024 bits)</em> are broken down 
-       snippets of data that when combined (to sequence number) 
+        <p><em>Packets (each consists of of 1,024 bits)</em> are broken down 
+       snippets of <span>data</span> that when combined (to sequence number) 
        as a whole to the designated IP address will create the 
-       desired <strong> data (bold using strong tag) </strong>
-    </p>
+       desired <strong> data (bold using strong tag) </strong></p>
+    </div>
+
     <img src="img/html.png" alt = "a html img">
     <!-- u must have an alt for inserting an img to give it a description of the photo -->
 
-    <p> <a href="page2.html">click</a>
-         here to go to page 2
-    </p>
+    <div class="bottom-section">
+        <p> <a href="page2.html">click</a>
+         here to go to page 2</p>
+    </div>
+
+    <div class="far-bottom">
+        <p>Hi I'm inside of a div. The div grows along with the word count :) </p>
+    </div>
+    <!-- div is a divider that acts like a text box, because div is a block level element it cant 
+    go within <p> (which is also a block level element) instead we could use <span> -->
 
     <h2>heading 2</h2>
     <h3>heading 3</h3>
